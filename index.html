@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Hojin Portfolio Website</title>
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="port" content="width=device-width, initial-scale=1.0">
+<!--title-icon--------->
+<link rel="shortcut icon" href="images/icon.png">
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<!--using FontAwesome---------------->
+<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<!--main------------------------>
+	<section id="main">
+	<!--navigation-------------------------------->
+	<nav>
+	<!--logo--->
+	<a href="#" class="logo">hojinmun</a>
+	<!--menu--------->
+	<div class="toggle"></div>
+	<ul class="menu">
+	<li class="active"><a href="#main" >Home</a></li>	
+	<li><a href="#about">About</a></li>	
+	<li><a href="#portfolio">Portfolio</a></li>		
+	<li><a href="#contact-form">Contact</a></li>	
+	</ul>
+	<!--language-->
+	<a href="#" class="lang">En</a>
+	</nav>
+	<!--name--------------------------->
+	<div class="name">
+	<!--hello------->
+	<p>Hello</p>
+	<!--name--->
+	<h1>I'm <font color="#17d1ac">Hojin</font> Mun</h1>
+	<!--details--------------->
+	<p class="details">Welcome to my page</p>
+	<!--cv button-------------------->
+	<a href="https://1drv.ms/w/s!Ak-3XyGCLki9i3yEWK9N1nUnHhTJ?e=VfnfcL" target="_blank" class="cv-btn">Download Cv</a>
+	
+		
+	</div>
+		<!--down arrow-------------->
+	<div class="black-line" ></div>
+	<!--social---------------->
+	<div class="social">
+	<a href="https://github.com/jinm81" target="_blank"><i class="fab fa-github"></i></a>	
+	<a href="https://www.linkedin.com/in/hojinmun/"target="_blank"><i class="fab fa-linkedin"></i></a>
+		
+	</div>
+	
+	</section>
+	<!--about----------------------->
+		<section id="about">
+	<!--text---------------------->
+	<div class="about-text">
+	<h1>About Me</h1>
+	<h2>FrontEnd Developer</h2>
+	<p>Full Stack Web Developer excited about integrating technologies to solve problems and improve upon existing methods. Leveraging background in account manager to provide unique perspectives on how end-users interact with websites and software platforms.</p>
+	
+	</div>
+	<!--about-model----------------->
+	<div class="about-model">
+	<img src="images/pexel4.jpg" alt="model"/>	
+	</div>
+	
+	
+	</section>
+	<!--services-------------------->
+	
+	<!--portfolio------------------->
+	<section id="portfolio">
+	<!--heading----------->
+	<h1 class="p-headind">Portfolio</h1>
+	<!--portfolio-container------------>
+	<div class="p-container">
+	<!--portfolio-box-1-------->
+	<div class="p-box">
+	<!--text--------->
+	<div class="overlay-text">
+		
+	<a href="https://good-game2020.herokuapp.com/" target="_blank">The Gamer network</a>
+	
+	<p>Project</p>	
+	</div>
+	<!--bg-img------------->
+	<img src="images/demo.png">
+
+	</div>
+	<!--portfolio-box-2-------->
+	<div class="p-box">
+		<!--text--------->
+	<div class="overlay-text">
+	<a href=https://tracerx.herokuapp.com/ target="_blank">Trace</a>
+	<p>Project</p>	
+	</div>
+	<!--bg-img------------->
+	<img src="images/trace.jpg">
+	</div>
+	<!--portfolio-box-3-------->
+	<div class="p-box">
+	<!--text--------->
+	<div class="overlay-text">
+	<a href="https://mi6gy.github.io/read_your_movie/" target="_blank">Read your movie </a>
+	<p>Project</p>	
+	</div>
+	<!--bg-img------------->
+	<img src="images/rad.png">
+	</div>
+	
+		
+	</div>
+	</section>
+	<!--Contact-btn------------------>
+	<section id="contact-btn">
+	<!--heading-------------->
+	<h1 class="c-b-heading">If You Have Any Project In Your Mind ?</h1>
+	<!--btn-------->
+		<button >Contact Me</button>
+	</section>
+	<!--contact-form------------------->
+	<section id="contact-form">
+	<form>
+	<!--left--------------------------------------->
+	<div class="contact-left">
+	<h1 class="c-l-heading"><font style="border-bottom: 3px solid #1ED98B;">Writ</font>e us</h1>
+	<!--name-------->
+	<div class="f-name">
+	<font >Name</font>
+	<input type="text" placeholder="Full Name"/>
+	</div>
+	<!--email-------->
+	<div class="f-email">
+	<font >Email</font>
+	<input type="email" placeholder="Example@gmail.com"/>
+	</div>
+	</div>
+	<!--right------------------------------------------->
+	<div class="contact-right">
+	<!--message-------->
+	<div class="message">
+	<font >Message</font>
+	<textarea name="message" rows="5" cols="20" placeholder="Write Message..."></textarea>
+	</div>
+	<!--submit-btn------------>
+	<button>submit</button>
+	</div>
+		
+	</form>
+	
+	</section>
+	
+	<script type="text/javascript" src="js/JQuery3.3.1.js"></script>
+	<script type="text/javascript">
+	
+		  /*Responsive Navigation*/
+	  $(document).ready(function(){
+	 $('.toggle').click(function(){
+		 $('.toggle').toggleClass('active')
+		 
+		 $('nav ul').toggleClass('active-menu')
+		
+		 
+	 })
+ });
+	
+	</script>
+</body>
+</html>
